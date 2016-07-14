@@ -79,7 +79,7 @@ Function Output-Info($debugcheck)
 
 Function Send-Mail($MailMessage)
 {
-    $smtpServer = "mail.citrix.com"
+    $smtpServer = "mail.com"
     $serverName = hostname
     $time = Get-Date
 
